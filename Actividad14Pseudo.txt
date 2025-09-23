@@ -1,0 +1,11 @@
+14- Índice de masa corporal (IMC)
+Inicio
+	Escribe "Introduce tu peso"
+	Lee peso
+	Escribe "Introduce tu altura"
+	Lee altura
+
+	IMC <- peso / altura
+
+	Escribe "Tu IMC es", IMC
+Fin

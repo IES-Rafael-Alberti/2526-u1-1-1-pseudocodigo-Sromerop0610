@@ -1,0 +1,16 @@
+15- Cociente y resto de una división
+Inicio
+	Escribe "Introduce el dividendo"
+	Lee n
+	Escribe "Introduce el divisor"
+	Lee m
+
+	Mientras m = 0
+		Escribe "Error: el divisor no puede ser cero. Introduce otro número"
+		Lee m
+	FinMientras
+
+	cociente <- n/m
+	resto <- n % m
+	Escribir "El Cociente es", cociente, " y el resto es", resto
+Fin

@@ -1,0 +1,18 @@
+Peso de un pedido de payasos y muñecas
+#Precondición: payasos= 112g y muñeca= 75g
+
+Inicio
+	Escribe "Introduce el número de muñecas"
+	Lee n_muñecas
+	Escribe "Introduce el número de payasos"
+	Lee n_payasos
+
+	peso_payasos <- 112
+	peso_muñecas <- 75
+	payasos <- peso_payasos * n_payasos
+	muñecas <- peso_muñecas * n_muñecas
+	total <- payasos + muñecas
+	
+	Escribe "El peso total es ", total, " gramos"
+
+Fin

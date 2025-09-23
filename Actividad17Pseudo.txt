@@ -1,0 +1,13 @@
+17- Ahorro con interés compuesto
+Inicio
+	Escribe "Ingresa el capital inicial"
+	Lee capital
+
+	saldo1 <- capital * 1.04
+	saldo2 <- saldo1 * 1.04
+	saldo3 <- saldo2 * 1.04
+
+	Escribe "El saldo tras 1 año es ", saldo1
+	Escribe "El saldo tras 2 años es ", saldo2
+	Escribe "El saldo tras 3 años es ", saldo3
+Fin
