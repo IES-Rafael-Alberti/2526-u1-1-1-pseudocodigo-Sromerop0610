@@ -1,0 +1,10 @@
+22- Número de teléfono sin prefijo ni extensión
+	Escribe "Ingresa el teléfono en formato +34-número-extensión"
+	Leer telefono
+
+	partes <- dividir(telefono, '-')
+	#De esta forma el programa debería devolver parte [0]=34, parte [1]=número, parte [3]=extension
+	
+	numeroCentral <- partes[1]
+	Escribir "El número es: ", numeroCentral
+Fin

@@ -1,0 +1,11 @@
+21- Contar letras del nombre
+Inicio
+	Escribe "Introduce nombre"
+	Lee nombre
+
+	nombre <- convertirMayusculas(nombre)
+	Escribe "El nombre en mayúsculas es ", nombre
+
+	n_letras <- longitudTexto(palabra)
+	Escribe "La palabra tiene ", n_letras, " letras"
+Fin

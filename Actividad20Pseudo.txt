@@ -1,0 +1,9 @@
+20- Nombre en minúsculas, mayúsculas y capitalizado
+Inicio
+	Escribe "Introduce tu nombre"
+	Lee nombre
+
+	Escribir "En minúscula: ", convertirMinusculas(nombre)
+	Escribir "En mayúscula: ", convertirMayuscula(nombre)
+	Escribir "Capitalizado: ", convertirCapitalizado(nombre)
+Fin

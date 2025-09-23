@@ -1,0 +1,4 @@
+23- Invertir una frase
+Inicio
+	Escribe "Introduce una frase"
+	Lee frase

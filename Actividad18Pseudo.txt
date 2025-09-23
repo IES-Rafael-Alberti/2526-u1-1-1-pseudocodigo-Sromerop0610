@@ -1,0 +1,13 @@
+18- Panadería: barras no frescas
+#Precondición: el precio habitual es de 3,49 y el descuento es del 60%
+Inicio
+	Escribe "Introduce el número de barras no frescas"
+	Lee n_no_frescas
+	descuento <- 0,6
+	habitual <- 3,49
+
+	coste_total<- n_no_frescas * (descuento * habitual)
+
+	Escribe "Siendo el precio habitual ", habitual, " y ejerciendo un descuento de ", descuento, " el coste_total es de ", coste_total
+Fin
+	

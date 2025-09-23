@@ -1,0 +1,12 @@
+19- Repetir nombre del usuario
+Inicio
+	Escribe "Introduce tu nombre"
+	Lee nombre
+	Escribe "Introduce número"
+	Lee numero
+
+	Mientras n =! 0 hacer
+		Escribe nombre
+		n <- n - 1
+	FinMientras
+Fin
