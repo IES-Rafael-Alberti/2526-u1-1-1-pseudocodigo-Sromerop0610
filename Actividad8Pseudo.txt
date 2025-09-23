@@ -1,0 +1,13 @@
+8- Calcular importe sin IVA e IVA pagado
+Inicio
+        #Precondición: se asume un IVA del 10%
+
+        Escribe "Introduce el precio final"
+        Lee precio_final
+
+        iva <- 0,1
+        iva_pagado <- precio_final/ (1 + iva)
+        precio_sin_iva <- precio_final - precio_sin_iva
+
+        Escribe "Si el precio final es", precio_final ", suponiendo que el iva >
+Fin

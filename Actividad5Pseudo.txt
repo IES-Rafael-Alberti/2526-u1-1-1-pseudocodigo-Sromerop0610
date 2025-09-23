@@ -1,0 +1,11 @@
+5- Cálculo del importe total de un servicio
+Inicio
+        Escribe "Introduce las horas trabajadas"
+        Lee horas
+        Escribe "Introduce el precio por hora"
+        Lee coste_por_horas
+
+        x <- horas * coste_por_hora
+
+        Escribe "El importe total es", x
+Fin

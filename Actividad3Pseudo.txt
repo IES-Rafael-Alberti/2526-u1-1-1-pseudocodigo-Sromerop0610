@@ -1,0 +1,23 @@
+3- Si un número X es primo
+
+Inicio
+        #Pedimos introducir el valor
+        Escribe "Introduce un número"
+        Lee X
+        #Comprobaciones de que un número es primo
+        Si (x <= 1)
+                Escribe "El número no es primo"
+        Sino
+                Primo <- 0
+                Para i (2, X/2)
+                        Si (x % i == 0)
+                                primo <- 1
+                        FinSi
+                FinPara
+                Si (primo == 0)
+                                Escribe "Es primo"
+                Sino
+                                Escribe "No es un número primo"
+		FinSi
+	FinSi
+Fin

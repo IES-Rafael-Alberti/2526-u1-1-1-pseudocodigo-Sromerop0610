@@ -1,0 +1,8 @@
+6- Conversión Celsius a Fahrenheit
+Inicio
+        Escribe "Introcude los grados Celsius"
+        Lee C
+        F <- (C * 9/5) + 32
+
+        Escribe C, "grados Celsius son", F, "grados Fahrenheit"
+Fin

@@ -1,0 +1,14 @@
+1- Si un número X es par o impar
+
+Inicio
+        #Pedimos introducir el valor
+        Escribe "Introduce un número"
+        Lee X
+        Precondición: damos por hecho que el usuario va a introducir un número >
+
+        #Comprobamos si es par o impar
+        Si (X % 2 == 0)
+                Escribe "El número es par"
+        Sino
+                Escribe "El número es impar"
+Fin

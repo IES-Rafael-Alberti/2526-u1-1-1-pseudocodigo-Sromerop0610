@@ -1,0 +1,13 @@
+2- La tabla del número X desde el 1 hasta el 10
+
+Inicio
+        #Pedimos introducir el valor
+        Escribe "Introduce un número"
+        Leer X
+
+        #Calcular y mostrar el resultado
+        Para i en (1_10) hacer
+                Escribe x, "x", i, "=", x *i
+
+        FinPara
+Fin

@@ -1,0 +1,6 @@
+12- Operación aritmética compleja
+#Precondición: Suponemos la operación (5+3)*2
+#Precondición: Valores fijos
+Inicio
+        Escribe "El resultado es", (5 + 3) * 2
+Fin

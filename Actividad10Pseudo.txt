@@ -1,0 +1,13 @@
+10- Suma de tres números usando solo dos variables
+Inicio
+        Escribe "Introduce dos números"
+        Lee num1, num2
+
+        num2-> num1 + num2
+
+        Escribe "Introduce el tercer número"
+        Lee num1
+
+        num1 -> num2 + num1
+        Escribe "El resultado de la suma es", num1
+Fin

@@ -1,0 +1,11 @@
+7- Cálculo del precio final con IVA
+Inicio
+        Escribe "Introduce el precio sin IVA"
+        Lee precio_sin_iva
+        Escribe "Introduce el porcentaje del IVA"
+        Lee iva
+
+        precio_final <- precio_sin_iva + (precio_sin_iva * iva/100)
+
+        Escribe "El precio final es", precio_final
+Fin

@@ -1,0 +1,7 @@
+4- Bienvenida al usuario
+Inicio
+        Escribe "Introduce tu nombre"
+        Lee nombre
+
+        Escribe "Hola,", nombre
+Fin

@@ -1,0 +1,14 @@
+13- Suma de los n primeros enteros
+Inicio
+        Escribe "Introduce la cantidad de números enteros que quieres sumar"
+        Lee n
+
+        aux <- 0
+        Para i (1, n)
+                aux <- aux + i
+
+        FinPara
+
+        Escribe "La suma de", n, "números enteros es", aux
+
+Fin

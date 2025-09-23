@@ -1,0 +1,9 @@
+9- Suma de tres números
+Inicio
+        Escribe "Introduce tres números"
+        Lee num1, num2, num3
+
+        Suma_total <- num1 + num2 + num3
+
+        Escribe "La suma es", Suma_total
+Fin
