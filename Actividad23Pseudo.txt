@@ -2,3 +2,12 @@
 Inicio
 	Escribe "Introduce una frase"
 	Lee frase
+
+	Invertida <- ""
+
+	Para i <- longitud(frase) - 1 Hasta 0 Paso -1 Hacer
+		invertida <- invertida + frase[i]
+	FinPara
+
+	Escribe "Frase invertida: ", invertida
+Fin

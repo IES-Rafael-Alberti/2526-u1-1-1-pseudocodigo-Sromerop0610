@@ -1,0 +1,22 @@
+24- Reemplazar una vocal en una frase
+Inicio
+	Escribe "Introduce una frase"
+	Lee frase
+
+	Escribe "Introduce una vocal"
+	Lee vocal
+
+	vocalMin <- minusculas(vocal)
+	vocalMay <- mayusculas(vocal)
+
+
+	Para i <- 0 Hasta longitud(frase) - 1 Hacer
+		caracter <- frase[i]
+		Si minusculas(caracter) = vocalMin Entonces
+			nuevaFrase <- nuevaFrase + vocalMay
+		Sino
+			nuevaFrase <- nuevaFrase+caracter
+	FinPara
+
+	Escribe "Frase nueva: ", nuevaFrase
+Fin

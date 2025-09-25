@@ -1,0 +1,13 @@
+25- Cambiar el dominio de un correo
+Inicio
+	Escribe "Ingresa un correo en formato ejemplo@dominio"
+	Lee correo
+	
+	partes <- dividir(correo, '@')
+	Si partes[1] = ceu.es
+		Escribe "No hace falta realizar cambio"
+	Sino
+		partes[1] <- ceu.es
+
+	Escribir "El correo correcto es: ", correo
+Fin

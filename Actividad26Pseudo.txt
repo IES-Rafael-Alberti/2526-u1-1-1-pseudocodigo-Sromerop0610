@@ -1,0 +1,12 @@
+26- Separar euros y céntimos de un precio
+Inicio
+	Escribe "Introduce precio en formato, por ejemplo, 34.4 (es decir, separando euros y centimos por un punto)"
+	Lee precio
+
+	partes <- dividir(precio, '.')
+	
+	euros <- partes[0]
+	centimos <- partes[1]
+	
+	Escribe "Son ", euros, " euros y ", centimos, " centimos"
+Fin

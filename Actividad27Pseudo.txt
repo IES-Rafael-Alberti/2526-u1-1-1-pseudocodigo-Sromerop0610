@@ -1,0 +1,12 @@
+27- Mostrar día, mes y año de una fecha
+Inicio
+	Escribe "Introduce la fecha de nacimiento en formato dd/mm/aaaa"
+	Lee fecha
+	
+	partes <- dividir(fecha, '/')
+	dia <- partes[0]
+	mes <- partes[1]
+	año <- partes[2]
+
+	Escribe "Naciste el día ", dia, " del mes ", mes, " del año ", año
+Fin
